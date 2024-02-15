@@ -9,3 +9,10 @@
         <option>gipson</option>
         <option>fender</option>
     </select>
+    <select>
+        <option>Select make</option>
+        <option>Les paul</option>
+        <option>GS</option>
+        <option>Telecaster</option>
+        <option>Stratorcaster</option>
+    </select>
