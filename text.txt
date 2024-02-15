@@ -20,3 +20,16 @@
         <option>Select type</option>
         <option>Electric</option>
     </select>
+    <br>
+    <br>
+    <label>Select Prize:<input placeholder="from"><input placeholder="To"></label>
+    </form>
+    <table border="1">
+<thead>
+<tr>
+    <th>Image</th>
+    <th>Make</th>
+    <th>Model</th>
+    <th>Type</th>
+    <th>Price</th>
+</tr>
