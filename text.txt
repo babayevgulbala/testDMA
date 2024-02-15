@@ -16,3 +16,7 @@
         <option>Telecaster</option>
         <option>Stratorcaster</option>
     </select>
+    <select>
+        <option>Select type</option>
+        <option>Electric</option>
+    </select>
