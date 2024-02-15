@@ -1,0 +1,11 @@
+<h1>My Ecommerce Site</h1>
+    <form><input placeholder="serch quiter...">
+    <button>Search</button>
+    <br>
+    <br>
+    <br>
+    <select>
+        <option>Select make</option>
+        <option>gipson</option>
+        <option>fender</option>
+    </select>
