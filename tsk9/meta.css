@@ -1,0 +1,93 @@
+li:first-child{
+    background-color: black;
+    color: #fff;
+}
+li:nth-child(2){
+background-color: gray;
+color: #fff; 
+}
+
+li:nth-child(3){
+background-color: rgb(58, 54, 54);
+color: #fff;
+}
+li:nth-child(4)
+{
+background-color: rgb(64, 64, 244);
+color: #fff;
+}
+li:nth-child(5)
+{
+background-color: rgb(86, 2, 2);
+color: #fff;
+}
+li:nth-child(6)
+{
+background-color: rgb(255, 14, 14);
+color: #fff;
+}
+li:nth-child(7)
+{
+background-color: purple;
+color: #000;
+}
+li:nth-child(8)
+{
+background-color: pink;
+color: black;
+}
+li:nth-child(9)
+{
+background-color: green;
+color: #fff;
+}
+li:nth-child(10)
+{
+background-color: lime;
+color: #000;
+}
+li:nth-child(11)
+{
+background-color: olive;
+color: #fff;
+}
+li:nth-child(12)
+{
+background-color: yellow;
+color: #000;
+}
+li:nth-child(13)
+{
+background-color: navy;
+color: #fff;
+}
+li:nth-child(14)
+{
+background-color: blue;
+color: #fff;
+}
+li:nth-child(15)
+{
+background-color: teal;
+color: #fff;
+}
+li:last-child(16)
+{
+background-color: aquamarine;
+color: #000;
+}
+
+ol{
+    list-style-position:inside;
+    width: 450px;
+    margin:auto;
+}
+li{
+        margin: 0;
+        padding: 15px;
+}
+li:hover{
+    background-color: #fff;
+    color: black;
+    transition: all .3s;
+}
