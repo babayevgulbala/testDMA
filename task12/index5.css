@@ -1,0 +1,19 @@
+
+*{
+    padding: 0;
+    height: 0;
+}
+
+
+h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 20PX;
+    margin-bottom: 40PX;
+}
+
+.header1{
+    width: 300px;
+    height: 200px;
+}
+
