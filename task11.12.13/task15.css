@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.prg1{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+section{
+    display: flex;
+    max-width: 1100px;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+   
+
+    
+}
+.link{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.read{
+    text-decoration: none;
+    color: black;
+    
+
+
+}
+
+.prg2{
+    margin-top: 15px;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+    
+}
+
+.box{
+    display: flex;
+    gap:15px;
+    margin-bottom: 15px;  
+
+}
+P{
+    color: gray;
+}
+
+
+
+
+
+
+

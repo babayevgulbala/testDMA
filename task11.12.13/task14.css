@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+section{
+    margin: auto;
+    width: 65%;
+    max-width: 1140px;
+
+    display: flex;
+    
+    margin: auto;
+
+
+}
+
+.jpg1{
+    width: 350px;
+    height: 300px;
+
+}
+
+h3{
+    font-size: 22px;
+    display: block;
+}
+
+.heading{
+    display: flex;
+    
+    
+
+}
