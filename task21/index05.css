@@ -1,0 +1,87 @@
+.grid-container {
+    width: 98%;
+    height: 800px;
+    /* max-width: 1320px; */
+    margin-inline: auto;
+    padding: 10px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr repeat(4,1fr);
+    gap: 10px;
+
+}
+
+.grid-item {
+    background: brown;
+    color: #fff;
+    font-size: 6rem;
+}
+
+.grid-item:first-child {
+    background-color: rgb(107, 26, 26);
+}
+
+.grid-item:nth-child(2) {
+    background-color: purple;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.grid-item:nth-child(3) {
+    background-color: orange;
+    grid-column: 4 / span 2;
+    grid-row: 1 / span 4;
+    padding-top: 300PX;
+}
+
+
+.grid-item:nth-child(4) {
+    background-color: yellow;
+}
+
+
+
+.grid-item:nth-child(5){
+    background-color: green;
+}
+
+.grid-item:nth-child(6){
+
+    background-color: rgb(45, 45, 97);
+}
+
+.grid-item:nth-child(7){
+    background-color: rgb(51, 113, 51);
+}
+
+.grid-item:nth-child(8){
+    background-color: green;
+}
+
+.grid-item:nth-child(9){
+    background-color: rgb(73, 73, 237);
+}
+
+.grid-item:nth-child(10){
+    background-color: rgb(74, 147, 74);
+}
+
+
+.grid-item:nth-child(11){
+    background-color: mediumslateblue;
+}
+
+
+.grid-item:nth-child(11) {
+    background-color: brown;
+    grid-column: 1 / span 3;
+}
+
+.grid-item:nth-child(12){
+    background-color: red;
+}
+
+
+
+
+
