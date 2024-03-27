@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.header {
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+}
+
+ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+i{
+  padding-right: 10px;
+}
+.list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+  color: #B6B9BC;
+  margin-bottom: 20px;
+
+}
+
+.img-text p{
+  font-family: "Chivo", sans-serif;
+}
+h1{
+  color: #18304B;
+  font-size: 40px;
+}
+
+
+
+
+.list ul li a {
+  text-decoration: none;
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+  
+}
+.list ul li a:hover{
+  border-bottom: 4px solid #007AFF;
+  background: none;
+
+}
+.list ul li a:active{
+  color: #007AFF;
+  border-bottom: 5px solid #007AFF;
+  background: none;
+}
+
+.row{
+  padding-top: 50px;
+  
+}
+
+.box {
+  border: 1px solid transparent;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.qutu{
+  padding-top: 10px;
+  margin-right: 60px;
+}
+.box:hover{
+  border: 1px solid blue;
+  transition: all .4s ease-out 0s;
+    
+
+}
+.header-2{
+  color: blue;
+  margin-bottom: 50px;
+}
+
+.box .buton {
+  color: #F27E42;
+  background: rgba(242, 126, 66, 0.26);
+  padding: 8px 25px;
+  border-radius: 25px;
+
+}
+
+.buton-2{
+  color: #4294F2;
+  background: rgba(66, 148, 255, 0.26);
+  padding: 8px 25px;
+  border-radius: 25px;
+
+}
+.buton-3{
+  color: #2EB98D;
+  background: rgba(46, 185, 141, 0.03);
+  padding: 8px 25px;
+  border-radius: 25px;
+}
+
+
+.buton-4{
+  color: #6A42F2;
+  background: rgba(106, 66, 242, 0.07);
+  padding: 8px 25px;
+  border-radius: 25px;
+
+}
+.buton-5{
+  color: #F162BC;
+  background: rgba(241, 98, 188, 0.07);
+  padding: 8px 25px;
+  border-radius: 25px;
+
+}
+
+
+.user {
+  font-family: "Overpass", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000;
+  text-decoration: none;
+}
+
+.map li {
+  list-style-type: none;
+
+}
+
+.map-2 {
+  display: inline-block;
+}
+
+
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  
+
+}
+.end p {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.img-text {
+  display: flex;
+}
+
+.time {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  color: #B6B9BC;
+  font-weight: 500;
+}
